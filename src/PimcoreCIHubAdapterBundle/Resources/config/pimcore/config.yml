@@ -1,0 +1,7 @@
+#ci_hub_adapter:
+#    default_preview_thumbnail:
+#        format: 'PNG'
+#        width: 300
+#        height: 300
+#        frame: true
+#        forceResize: true

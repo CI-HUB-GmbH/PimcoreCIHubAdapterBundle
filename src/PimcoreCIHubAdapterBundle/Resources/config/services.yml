@@ -1,0 +1,6 @@
+services:
+
+    # CI HUB Configuration Loader
+    CIHub\Bundle\PimcoreCIHubAdapterBundle\Loader\CIHubConfigurationLoader:
+        tags:
+            - { name: 'pimcore.datahub.configuration.loader' }
