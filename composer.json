@@ -16,10 +16,10 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
-    "pimcore/data-hub": "^1.0",
-    "pimcore/pimcore": "^6.0",
-    "ci-hub/simple-rest-adapter-bundle": "^1.0"
+    "php": ">=8.0",
+    "pimcore/data-hub": "^1.1",
+    "pimcore/pimcore": "^10.0",
+    "ci-hub/simple-rest-adapter-bundle": "^2.0"
   },
   "require-dev": {
     "phpstan/phpstan": "^0.12",

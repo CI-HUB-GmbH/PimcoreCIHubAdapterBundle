@@ -19,7 +19,7 @@ This bundle depends on the [Pimcore DataHub](https://github.com/pimcore/data-hub
 To install the CI HUB Adapter complete following steps:
 * Install via composer  
   ```
-  composer require ci-hub/pimcore-ci-hub-adapter-bundle:^1.0
+  composer require ci-hub/pimcore-ci-hub-adapter-bundle
   ```
 * Enable via command-line (or inside the Pimcore extension manager)  
   ```
