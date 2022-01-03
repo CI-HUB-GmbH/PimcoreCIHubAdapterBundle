@@ -24,7 +24,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder('ci_hub_adapter');
+        $treeBuilder = new TreeBuilder('pimcore_ci_hub_adapter');
         $treeBuilder->getRootNode()
             ->addDefaultsIfNotSet()
             ->children()

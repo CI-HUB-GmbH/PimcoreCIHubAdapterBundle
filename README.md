@@ -38,8 +38,8 @@ To install the CI HUB Adapter complete following steps:
 Configure the default thumbnail, which is used by CI HUB to display the preview of your Pimcore Assets:
 
 ```yaml
-# Default configuration for "CIHubAdapterBundle"
-ci_hub_adapter:
+# Default configuration for "PimcoreCIHubAdapterBundle"
+pimcore_ci_hub_adapter:
 
     # Default image/document thumbnail settings.
     default_preview_thumbnail:

@@ -20,7 +20,7 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class CIHubAdapterExtension extends Extension
+class PimcoreCIHubAdapterExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -46,6 +46,6 @@ class CIHubAdapterExtension extends Extension
      */
     private function registerConfiguration(ContainerBuilder $container, array $config): void
     {
-        $container->setParameter('ci_hub_adapter.default_preview_thumbnail', $config['default_preview_thumbnail']);
+        $container->setParameter('pimcore_ci_hub_adapter.default_preview_thumbnail', $config['default_preview_thumbnail']);
     }
 }

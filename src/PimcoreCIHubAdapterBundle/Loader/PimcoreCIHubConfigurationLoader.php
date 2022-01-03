@@ -16,7 +16,7 @@ namespace CIHub\Bundle\PimcoreCIHubAdapterBundle\Loader;
 
 use CIHub\Bundle\SimpleRESTAdapterBundle\Loader\ConfigurationLoaderInterface;
 
-final class CIHubConfigurationLoader implements ConfigurationLoaderInterface
+final class PimcoreCIHubConfigurationLoader implements ConfigurationLoaderInterface
 {
     /**
      * {@inheritdoc}
